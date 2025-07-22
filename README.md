@@ -53,3 +53,7 @@ This project does not rely on external libraries for networking or architecture 
 - **Task List View**: Displays all tasks fetched from the API
 - **Create Task View**: Allows creating new tasks and posting them to the backend
 - Fully responsive to system **Light and Dark Mode** settings
+
+<p align="center">
+  <img width="460" height="300" src="doc/preview.gif">
+</p>
