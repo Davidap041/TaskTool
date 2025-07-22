@@ -85,7 +85,16 @@ struct TaskScreen: View {
             
             // List of Cards
             if viewModel.isLoading {
-                ProgressView("Carregando...")
+                GeometryReader { geometry in
+                    VStack {
+                        Spacer()
+                        ProgressView("Carregando...")
+                            .progressViewStyle(CircularProgressViewStyle(tint: .blue))
+                        Spacer()
+                    }
+                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .background(Color(.systemBackground))
+                }
             } else {
                 List{
                     ForEach(
