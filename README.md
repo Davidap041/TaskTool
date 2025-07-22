@@ -55,5 +55,5 @@ This project does not rely on external libraries for networking or architecture 
 - Fully responsive to system **Light and Dark Mode** settings
 
 <p align="center">
-  <img width="460" height="300" src="doc/preview.gif">
+  <img width="300" src="doc/preview.gif">
 </p>
